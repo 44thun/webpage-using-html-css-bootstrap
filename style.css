@@ -1,0 +1,215 @@
+/* a:hover {
+    text-decoration: none;
+} */
+
+
+.section {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.section h2.section-head {
+    color: black;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* .underlinedi {
+    border-bottom: 6px solid;
+    display: inline-block;
+    padding: 5px 10px auto;
+} */
+/* 
+.section h2.section-head::after {
+    background: #193246;
+    content: "";
+    display: block;
+    width: 100px;
+    margin: 50px auto;
+    height: 5px;
+    border-bottom: 1rem solid;
+} */
+#title4 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 50px;
+    border-bottom: 5px solid #000;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+#title5 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 50px;
+    border-bottom: 5px solid #000;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+/* Is it possible to change to the underline height from when the developer uses `text-decoration: underline;` in CSS to create an underline? -search this in stackoverflow for the underline solution */
+#header {
+    color: white;
+    background: #273c75;
+}
+
+#logo {
+    font-size: 1 rem;
+    margin-top: 4px;
+}
+
+#navimenu ul li {
+    list-style: none;
+    /* Corrected typo from 'pad' to 'padding' */
+    margin: 0;
+    padding: 0;
+}
+
+#navimenu ul li {
+    display: inline-block;
+}
+
+#navimenu li a {
+    text-decoration: none;
+    color: white;
+
+    padding: 15px 10px;
+    display: block;
+}
+
+#menubar li:hover a {
+    background: #193246;
+}
+
+#banner {
+    background: url(./images/jonatan-pie-UPWuKzAcuUI-unsplash.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+
+.banner-title h1 {
+    background: rgb(232, 233, 233, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+
+}
+
+.banner-title p.lead {
+    background: rgb(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 5px;
+    margin: 0;
+}
+
+.service-box {
+    text-align: center;
+}
+
+.service-box i.fa {
+    color: #273c75;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#testimonials {
+    color: #000;
+    background: url(./images/daniel-norris-_j6uUeKG8WI-unsplash.jpg) no-repeat 0 0;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    position: relative;
+
+}
+
+.news-post {
+
+    overflow: hidden;
+}
+
+/* .hatao-underline a {
+    text-decoration: none;
+} */
+.news-post h3 {
+    font-size: 1.35rem;
+}
+
+.news-post h3 a {
+    color: #ff6b6b;
+}
+
+.post-date {
+    margin: 10px;
+    padding-right: 5px;
+}
+
+#footer-sidebar {
+    color: white;
+    background-color: #576574;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footer-widget h4::after {
+    content: "";
+    background-color: white;
+    display: block;
+    width: 50px;
+    height: 2px;
+}
+
+.footer-widget ul li {
+    list-style-type: none;
+}
+
+.footer-widget ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* .social {
+    display: inline-block;
+    align-content: end;
+} */
+
+.copyright {
+    display: inline-block;
+}
+
+.main-footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.ekline {
+    display: inline-block;
+}
+
+/* #testimonials::before {
+    background: rgba(99, 110, 114, 0.7);
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+} */
+
+/* .picture {
+    font-size: 1px;
+} */
+
+/* #menubar li a {
+    color: #2794b0;
+    padding: 15px 10px;
+    display: block;
+} */
+
+/* 
+#mainheader {
+    background-color: #25CCF7;
+} */
